@@ -78,7 +78,7 @@ public class UnlockScreenActivity extends AppCompatActivity implements UnlockScr
             }
             if (bundle.containsKey("info")) {
                 String info = bundle.getString("info");
-                tvInfo.setText(info);
+                tvInfo.setText("This call is end to end encrypted");
             }
             if (bundle.containsKey("avatar")) {
                 String avatar = bundle.getString("avatar");
